@@ -17,6 +17,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 50px;
 }
 
 #content {
@@ -63,4 +64,33 @@ button {
     justify-content: center;
     align-items: center;
 
+}
+
+/* Menu */
+.foodCard {
+    display: flex;
+    background-color: #c25015;
+    color: #3c0308;
+    width: 500px;
+    gap: 20px;
+
+    font-family: Mirza;
+    font-size: 20px;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+.foodCard img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.textHolder {
+    margin-top: 20px;
+}
+
+.textHolder .title {
+    font-family: Jomhuria;
+    font-size: 50px;
+    line-height: 20px;
 }
